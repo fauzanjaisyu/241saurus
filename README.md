@@ -1,6 +1,8 @@
 # 241saurus
-241saurus
-=======
+
+Here's the link!
+https://fauzanjaisyu.github.io/241saurus/
+
 # Website
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
@@ -39,6 +41,14 @@ Not using SSH:
 
 ```
 $ GIT_USER=<Your GitHub username> yarn deploy
+```
+
+Deploy to GitHub:
+```
+# USER privilege.
+export GIT_USER="fauzanjaisyu"
+export USE_SSH="true"
+yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
